@@ -1,27 +1,32 @@
-import { Button } from "../ui/button";
+"use client";
+
 import {
   Card,
   CardHeader,
   CardFooter,
   CardTitle,
-  CardAction,
   CardDescription,
   CardContent,
 } from "../ui/card";
+import { Separator } from "../ui/separator";
+import LoginForm from "./loginForm";
 
 const LoginCard = () => {
   return (
-    <Card>
-      <CardHeader>
-        <CardTitle>EBAQUE - Login</CardTitle>
+    <Card className="w-3xl">
+      <CardHeader className="flex flex-col items-center">
+        <CardTitle className="text-xl">Login</CardTitle>
         <CardDescription>
           Insira suas credenciais para continuar
         </CardDescription>
+        <Separator className="my-2" />
       </CardHeader>
-      <CardContent>{/* Login form content */}</CardContent>
-      <CardFooter>
-        <Button>Entrar</Button>
-      </CardFooter>
+      <CardContent>
+        <LoginForm />
+      </CardContent>
+      <CardFooter></CardFooter>
     </Card>
   );
 };
+
+export default LoginCard;
