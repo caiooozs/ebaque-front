@@ -31,7 +31,7 @@ const DashboardSidebar = () => {
             </Link>
 
             <Link
-              href="/classes"
+              href="/dashboard/classes"
               className="flex items-center transition-colors transform hover:bg-gray-200 px-2 py-2 rounded-md"
             >
               <TbUsers className="mr-2" />
@@ -39,7 +39,7 @@ const DashboardSidebar = () => {
             </Link>
 
             <Link
-              href="/graphics"
+              href="/dashboard/graphics"
               className="flex items-center transition-colors transform hover:bg-gray-200 px-2 py-2 rounded-md"
             >
               <IoBarChartSharp className="mr-2" />
@@ -47,7 +47,7 @@ const DashboardSidebar = () => {
             </Link>
 
             <Link
-              href="/reports"
+              href="/dashboard/reports"
               className="flex items-center transition-colors transform hover:bg-gray-200 px-2 py-2 rounded-md"
             >
               <TbReportSearch className="mr-2" />
