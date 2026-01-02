@@ -13,7 +13,7 @@ import LoginForm from "./loginForm";
 
 const LoginCard = () => {
   return (
-    <Card className="w-3xl">
+    <Card className="w-xl">
       <CardHeader className="flex flex-col items-center">
         <CardTitle className="text-xl">Login</CardTitle>
         <CardDescription>

@@ -1,8 +1,5 @@
 import LoginCard from "@/components/Login/LoginCard";
+import DashboardHome from "./dashboard/page";
 export default function Home() {
-  return (
-    <div className="flex items-center justify-center min-h-screen">
-      <LoginCard />
-    </div>
-  );
+  return <DashboardHome />;
 }
