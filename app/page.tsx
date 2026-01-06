@@ -1,5 +1,3 @@
-import LoginCard from "@/components/Login/LoginCard";
-import DashboardHome from "./dashboard/page";
-export default function Home() {
-  return <DashboardHome />;
-}
+import ClassesPage from "./dashboard/page";
+
+export default ClassesPage;

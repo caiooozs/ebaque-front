@@ -1,11 +1,3 @@
-import DashboardSidebar from "@/components/Dashboard/dashboard-sidebar";
+import ClassesPage from "./classes/page";
 
-const DashboardHome = () => {
-  return (
-    <div className="flex">
-      <DashboardSidebar />
-    </div>
-  );
-};
-
-export default DashboardHome;
+export default ClassesPage;
